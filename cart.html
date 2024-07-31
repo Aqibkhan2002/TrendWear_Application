@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Ecommerce Website</title>
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="images/logo-removebg-preview.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="bag-remove"><a class="active" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-bars"></i>
+        </div>
+    </section>
+
+    <section id="shop-banner" class="blog-header">
+        <h1>#let's talk</h1>
+        <p>Read all case studies about our products!</p>
+    </section>
+
+    <section id="cart-details" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <th>REMOVE</th>
+                    <th>IMAGE</th>
+                    <th>PRODUCT</th>
+                    <th>PRICE</th>
+                    <th>QUANTITY</th>
+                    <th>SUBTOTAL</th>
+                </tr>
+            </thead>
+            <tbody class="table-body">
+                <tr>
+                    <td><i class="far fa-times-circle"></i></td>
+                    <td><img src="images/products/f1.jpg" alt=""></td>
+                    <td>cotton Admire T-Shirts</td>
+                    <td>₹499</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹499</td>
+                </tr>
+                <tr>
+                    <td><i class="far fa-times-circle"></i></td>
+                    <td><img src="images/products/f1.jpg" alt=""></td>
+                    <td>cotton Admire T-Shirts</td>
+                    <td>₹499</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹499</td>
+                </tr>
+                <tr>
+                    <td><i class="far fa-times-circle"></i></td>
+                    <td><img src="images/products/f1.jpg" alt=""></td>
+                    <td>cotton Admire T-Shirts</td>
+                    <td>₹499</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹499</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="coupon section-p1" >
+        <div class="colm">
+            <h3>Apply Coupon</h3>
+            <div class="fisrt-col">
+                <input type="text" placeholder="Enter Your Coupon">
+                <button>Apply</button>
+            </div>
+        </div>
+        <div class="colm cols">
+             <h3>Cart Totals</h3>
+            <table>
+            <tr>
+                <td>Cart Subtotal</td>
+                <td>2545</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>2545</strong></td>
+            </tr>
+        </table>
+            <button>Proceed to chechout</button>
+        </div>
+    </section>
+
+    <footer id="footer-content"></footer>
+    <script src="index.js"></script>
+</body>
