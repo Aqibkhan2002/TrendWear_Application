@@ -106,7 +106,7 @@ body {
 /* home page */
 
 #hero {
-    background-image: url('images/pic3.jpg');
+    background-image: url('images/banner1.jpg');
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -400,7 +400,7 @@ button.global{
     color: white;
 }
 #banner3 .ban2{
-    background-image: url("images/pic2.jpg"); 
+    background-image: url("images/banner/b4.jpg"); 
 }
 #banner3 .ban3{
     background-image: url("images/banner/b18.jpg"); 
